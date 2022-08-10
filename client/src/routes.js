@@ -4,6 +4,7 @@ import HomeScreen from "./screens/home/HomeScreen";
 import LoginScreen from "./screens/auth/login/LoginScreen";
 import SignupScreen from "./screens/auth/signup/SignupScreen";
 import AppPaths from "./lib/appPaths";
+import BarChart from "./components/Chart/BarChart"
 
 export default class Routes extends Component {
   render() {
@@ -17,5 +18,8 @@ export default class Routes extends Component {
         </Switch>
       </Router>
     );
+    // <div style={{ width: 700 }}>
+    //     <BarChart chartData={UseData} />
+    //   </div>
   }
 }
